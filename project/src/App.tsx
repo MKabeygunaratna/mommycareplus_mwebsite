@@ -1,5 +1,4 @@
-import { useState } from 'react';
-import FlashScreen from './components/FlashScreen';
+
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Features from './components/Features';
@@ -8,11 +7,11 @@ import ContactUs from './components/ContactUs';
 import { FaYoutube, FaInstagram, FaFacebook } from 'react-icons/fa';
 
 export default function App() {
-  const [showFlash, setShowFlash] = useState(true);
+  // const [showFlash, setShowFlash] = useState(true);
 
-  if (showFlash) {
-    return <FlashScreen onComplete={() => setShowFlash(false)} />;
-  }
+  // if (showFlash) {
+  //   return <FlashScreen onComplete={() => setShowFlash(false)} />;
+  // }
 
   return (
     <div className="min-h-screen bg-white">
